@@ -26,6 +26,7 @@ header {
     box-shadow: 0 2px 2px #2F3849;
     position: fixed;
     display: flex;
+    z-index: 99;
 }
 
 header a {
@@ -48,7 +49,7 @@ main {
     padding-top: 50px;
     padding-bottom: 50px;
     min-height: fit-content;
-    background-color: #f2ede0;
+    background-color: #EDE6D3;
     color: #2F3849;
     display: flex;
     flex-wrap: wrap;
@@ -58,25 +59,26 @@ main {
     align-self: center;
     padding-left: 10%;
     padding-right: 10%;
+    border-bottom: solid 1px black;
 }
 
 .grid-box {
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 350px;
     background-color: #2F3849;
     color: #f2ede0;
     border: solid 0px transparent;
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
-    margin: 20px;
+    margin: 5px;
 }
 
 
 .grid-text {
     width: 210px;
     height: 70px;
-    padding-left: 20px;
-    padding-top: 10px;
+    margin: 10px;
 }
 
 .grid-box h2 {
@@ -90,11 +92,12 @@ main {
 
 .grid-box-two {
     width: 90%;
-    min-height: 170px;
+    min-height: 180px;
     border: inherit;
     border-radius: inherit;
-    margin-left: 5%;
-    margin-top: -7%;
+    position: relative;
+    left: 5%;
+    bottom: 20px;
 }
 
 .grid-box-two img {
