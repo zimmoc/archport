@@ -30,7 +30,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #AE8381;
+    color: #2F3849;
     text-transform: uppercase;
     padding-left: 20px;
     align-self: center;
@@ -39,5 +39,28 @@ header a {
 /* Main Content */
 
 main {
-    padding-top: 56px;
+    padding-top: 54px;
+}
+
+/* Main content art grid */
+
+#art-grid {
+    min-height: 500px;
+    background-color: #2F3849;
+    color: #f2ede0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.grid-box {
+    margin: 40px;
+    width: 250px;
+    height: 250px;
+    background-color: #f2ede0;
+    color: #2F3849;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
 }
