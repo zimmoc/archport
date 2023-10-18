@@ -84,6 +84,7 @@ main {
     border-radius: 5px;
     box-shadow: 2px 2px 2px grey;
     margin: 10px;
+    flex-basis: auto;
 }
 
 
@@ -132,8 +133,18 @@ main {
 @media screen and (min-width: 768px) {}
 
 /* Media query: 992px and up */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    .grid-box {
+        flex-basis: 40%;
+    }
+}
 
 /* Media query: 1200px and up */
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+    .grid-box {
+        flex-basis: auto;
+    }
+}
