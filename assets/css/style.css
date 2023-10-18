@@ -25,7 +25,6 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #2F3849;
     position: fixed;
-    display: flex;
     z-index: 99;
 }
 
@@ -45,27 +44,41 @@ main {
 
 /* Main content art grid */
 
-#art-grid {
+.flex-row {
     padding-top: 50px;
-    padding-bottom: 50px;
-    min-height: fit-content;
+    min-height: 500px;
     background-color: #EDE6D3;
     color: #2F3849;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
     width: 100%;
-    align-self: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-row-two {
+    padding-bottom: 50px;
+    min-height: 500px;
+    background-color: #EDE6D3;
+    color: #2F3849;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
     border-bottom: solid 1px black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .grid-box {
-    min-width: 250px;
-    min-height: 250px;
-    max-width: 350px;
+
+    width: 250px;
+    height: 350px;
     background-color: #2F3849;
     color: #f2ede0;
     border: solid 0px transparent;
@@ -76,9 +89,11 @@ main {
 
 
 .grid-text {
-    width: 210px;
-    height: 70px;
-    margin: 10px;
+    max-width: 210px;
+    max-height: 50px;
+    position: relative;
+    left: 22.5px;
+    margin-top: 20px;
 }
 
 .grid-box h2 {
@@ -92,20 +107,35 @@ main {
 
 .grid-box-two {
     width: 90%;
-    min-height: 180px;
+    max-height: 200px;
     border: inherit;
     border-radius: inherit;
     position: relative;
-    left: 5%;
-    bottom: 20px;
+    left: 12.5px;
+    top: 12.5px;
+
 }
 
 .grid-box-two img {
     overflow: hidden;
-    display: flex;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 200px;
     border: inherit;
     border-radius: inherit;
     box-shadow: 2px 2px 2px 1px black;
 }
+
+/* Media querys */
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {}
+
+/* Media query: tablets and larger ( 768px and up ) */
+@media screen and (min-width: 768px) {}
+
+/* Media query: 992px and up */
+@media screen and (min-width: 992px) {}
+
+/* Media query: 1200px and up */
+
+@media screen and (min-width: 1200px) {}
