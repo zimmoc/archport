@@ -26,6 +26,7 @@ header {
     box-shadow: 0 2px 2px #2F3849;
     position: fixed;
     z-index: 99;
+    display: flex;
 }
 
 header a {
