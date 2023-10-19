@@ -130,8 +130,8 @@ main {
 
 .grid-box button {
     background-color: transparent;
-    border: solid 1px #6AC5E4;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 4px;
+    border: solid 1px #142A57;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 1px;
     border-radius: 5px;
     width: 150px;
     height: 30px;
@@ -143,11 +143,31 @@ main {
 }
 
 .grid-box button:hover {
-    background-color: #6AC5E4;
+    background-color: #142A57;
+    color: #f2ede0;
 }
 
 .grid-box button:active {
-    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.35);
+    background-color: #475f8d;
+    box-shadow: inset 0px 0px 4px rgba(106, 197, 228, 0.295);
+}
+
+/* Footer */
+
+footer {
+    height: 30px;
+    width: 100%;
+    background-color: #0e1629;
+    color: #F9F9F8;
+    display: flex;
+    padding-left: 20px;
+}
+
+footer p {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 12px;
 }
 
 /* Media querys */
