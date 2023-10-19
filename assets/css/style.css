@@ -45,8 +45,6 @@ main {
 
 /* Main content art grid */
 
-#art-grid {}
-
 .flex-row {
     padding-top: 50px;
     min-height: 200px;
