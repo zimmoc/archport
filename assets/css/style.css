@@ -15,6 +15,10 @@ body {
     flex-direction: column;
 }
 
+.hide {
+    display: none;
+}
+
 
 
 /* Header */
@@ -41,9 +45,16 @@ header a {
 
 main {
     padding-top: 50px;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Main content art grid */
+
+#art-grid {
+    order: 0;
+}
 
 .flex-row {
     padding: 10px 0;
@@ -76,7 +87,7 @@ main {
     background-color: #F9F9F8;
     color: #142A57;
     border: solid 0px transparent;
-    border-radius: 10px;
+    border-radius: 5px;
     /* box-shadow: 0 0 4px grey; */
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
     margin: 10px;
@@ -152,26 +163,78 @@ main {
 
 #placeholder {
     height: 300px;
+    order: 1;
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+    border: solid 0px transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
 
 #placeholder-bg {
-    background-color: #142A57;
+    background-color: #687F94;
     position: relative;
-    right: 50%;
-    width: 100%;
+    width: 20%;
     height: 100%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
 
 #placeholder-two {
     height: 300px;
+    margin-bottom: 50px;
+    order: 2;
 }
 
 #placeholder-bg-two {
-    background-color: #142A57;
+    background-color: #687F94;
     position: relative;
     left: 50%;
     width: 100%;
     height: 100%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    border: solid 0px transparent;
+    border-radius: 5px;
+}
+
+#filler {
+    height: 200px;
+    width: 100%;
+    order: 3;
+}
+
+#landing {
+    height: 450px;
+    margin-top: 50px;
+    width: 60%;
+    background-color: #687F94;
+    border: solid 0px transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    color: #F9F9F8;
+}
+
+#landing-img img {
+    height: 450px;
+    float: left;
+    margin-right: 50px;
+}
+
+#landing h2 {
+    margin: 50px 50px 0 50px;
+}
+
+#landing hr {
+    border: solid 1px #F9F9F8;
+    margin-right: 50px;
+}
+
+#landing p {
+    margin: 10px 50px 0 50px;
+
 }
 
 /* Footer */
