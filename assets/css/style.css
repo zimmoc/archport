@@ -8,9 +8,9 @@
 
 
 body {
-    background-color: #EDE6D3;
+    background-color: #F9F9F8;
     min-height: 100vh;
-    color: #2F3849;
+    color: #142A57;
     display: flex;
     flex-direction: column;
 }
@@ -20,10 +20,10 @@ body {
 /* Header */
 
 header {
-    background-color: #f2ede0;
+    background-color: #0e1629;
     height: 54px;
     width: 100%;
-    box-shadow: 0 2px 2px #2F3849;
+    box-shadow: 0 1px rgba(0, 0, 0, .25);
     position: fixed;
     z-index: 99;
     display: flex;
@@ -31,7 +31,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #2F3849;
+    color: #F9F9F8;
     text-transform: uppercase;
     padding-left: 20px;
     align-self: center;
@@ -40,20 +40,16 @@ header a {
 /* Main Content */
 
 main {
-    padding-top: 54px;
+    padding-top: 50px;
 }
 
 /* Main content art grid */
 
-#art-grid {
-    background-color: #EDE6D3;
-}
+#art-grid {}
 
 .flex-row {
     padding-top: 50px;
     min-height: 200px;
-    background-color: #EDE6D3;
-    color: #2F3849;
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -67,8 +63,6 @@ main {
 .flex-row-two {
     padding-bottom: 50px;
     min-height: 500px;
-    background-color: #EDE6D3;
-    color: #2F3849;
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -83,11 +77,12 @@ main {
 
     width: 250px;
     height: 350px;
-    background-color: #FAF9F6;
-    color: #2F3849;
+    background-color: #F9F9F8;
+    color: #142A57;
     border: solid 0px transparent;
     border-radius: 10px;
-    box-shadow: 0 0 4px #2F3849;
+    /* box-shadow: 0 0 4px grey; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 10px;
     flex-basis: auto;
 }
@@ -102,6 +97,11 @@ main {
 
 }
 
+.grid-box h2 {
+    color: #142A57;
+    font-weight: bold;
+    font-size: large;
+}
 
 .grid-box p {
     max-width: 220px;
@@ -110,27 +110,35 @@ main {
 
 .grid-box-two {
     width: 250px;
-    height: 200px;
-    border: inherit;
-    border-radius: inherit;
+    height: 190px;
     position: relative;
-    overflow: hidden;
-
 }
 
 .grid-text hr {
     border: solid 0px #f2ede0;
     height: 1px;
-    box-shadow: 0px 1px #2F3849;
+    box-shadow: 0px 1px #142A57;
 }
 
 .grid-box-two img {
     width: 100%;
     height: 190px;
     border: inherit;
-    overflow: hidden;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.grid-box button {
+    background-color: transparent;
+    border: solid 1px #6AC5E4;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    position: relative;
+    bottom: -10px;
 }
 
 /* Media querys */
