@@ -56,6 +56,10 @@ main {
     order: 0;
 }
 
+#art-grid h2 {
+    text-align: center;
+}
+
 .flex-row {
     padding: 10px 0;
     min-height: 200px;
