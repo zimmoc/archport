@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* General styles */
 
 body {
     background-color: #F9F9F8;
@@ -17,6 +18,11 @@ body {
 
 .hide {
     display: none;
+}
+
+.clean-text {
+    text-decoration: none;
+    text-transform: none;
 }
 
 
@@ -60,6 +66,10 @@ header a {
     padding: 1rem;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 
 
 /* Main Content */
@@ -79,9 +89,17 @@ main {
 
 #art-grid h2 {
     text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    text-decoration: none;
+}
+
+#art-grid a {
+    color: #142A57;
+}
+
+#art-grid>h2>hr {
+    display: inline-flex;
+    margin: 1rem 1rem 0.25rem;
+    width: 300px;
+    border: 1px solid #142A57;
 }
 
 .flex-row {
@@ -253,6 +271,8 @@ main {
 
 #landing h2 {
     margin: 50px 50px 0 50px;
+
+
 }
 
 #landing hr {
