@@ -31,15 +31,36 @@ header {
     position: fixed;
     z-index: 99;
     display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    padding: 0 10%;
+
 }
 
 header a {
     text-decoration: none;
     color: #F9F9F8;
     text-transform: uppercase;
-    padding-left: 20%;
     align-self: center;
 }
+
+/* Nav menu*/
+
+
+#menu {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    list-style-type: none;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#menu>li {
+    display: inline;
+    padding: 1rem;
+}
+
+
 
 /* Main Content */
 
@@ -285,6 +306,10 @@ footer p {
 /* Media query: 1200px and up */
 
 @media screen and (min-width: 1200px) {
+
+    header {
+        padding: 0 15%;
+    }
 
     .grid-box {
         flex-basis: auto;
