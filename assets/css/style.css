@@ -251,7 +251,8 @@ main {
 }
 
 #landing {
-    height: 465px;
+    height: auto;
+    max-height: 600px;
     margin-top: 50px;
     width: 60%;
     background-color: #687F94;
@@ -328,7 +329,7 @@ footer p {
 @media screen and (min-width: 1200px) {
 
     header {
-        padding: 0 15%;
+        padding: 0 20%;
     }
 
     .grid-box {
