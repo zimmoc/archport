@@ -223,16 +223,23 @@ main {
     overflow: hidden;
     /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.25); */
     background-color: #687F94;
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 #bio-bg {
     background-color: #F9F9F8;
-    position: relative;
-    width: 25%;
-    height: 280px;
+    width: 200px;
     margin: 10px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    background: url("../images/Iannis-Xenakis.jpg") no-repeat center center/contain;
+}
+
+
+
+#bio-text {
+    margin: 10px;
+    color: #F9F9F8;
 }
 
 /* Home page text and picture section */
