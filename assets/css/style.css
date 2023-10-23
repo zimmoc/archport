@@ -139,7 +139,7 @@ main {
     background-color: #F9F9F8;
     color: #142A57;
     border: solid 0 transparent;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
     margin: 10px;
     flex-basis: auto;
@@ -182,8 +182,8 @@ main {
     width: 100%;
     height: 190px;
     border: inherit;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
 }
 
 /* "Read More" buttons on art grid */
@@ -221,16 +221,18 @@ main {
     border: solid 0 transparent;
     /* border-radius: 5px; */
     overflow: hidden;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.25); */
+    background-color: #687F94;
 
 }
 
 #bio-bg {
-    background-color: #687F94;
+    background-color: #F9F9F8;
     position: relative;
     width: 25%;
-    height: 100%;
-    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); */
+    height: 280px;
+    margin: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Home page text and picture section */
