@@ -437,27 +437,46 @@ input:focus {
 }
 
 
-
-
-
-
-
 /* Footer */
 
 footer {
-    height: 30px;
+    height: 35px;
     width: 100%;
     background-color: #0e1629;
     color: #F9F9F8;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
-footer p {
+#copyright {
     display: flex;
-    text-align: left;
     align-items: center;
     font-size: 12px;
+    width: 49%;
+    justify-content: flex-start;
+}
+
+/* Social media icons */
+
+#social-networks {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+
+#social-networks i {
+    color: #F9F9F8;
+    font-size: 140%;
+}
+
+#social-networks li {
+    padding-left: 10px;
 }
 
 /* Media querys */
