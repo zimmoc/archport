@@ -77,7 +77,11 @@ header a {
 }
 
 .active {
-    text-decoration: underline;
+    border-bottom: solid 1px #F9F9F8;
+}
+
+#menu a:hover {
+    border-bottom: solid 1px #F9F9F8;
 }
 
 
