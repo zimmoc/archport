@@ -29,6 +29,7 @@ body {
 .clean-text {
     text-decoration: none;
     text-transform: none;
+    all: unset;
 }
 
 .filler {
@@ -46,6 +47,10 @@ h1 {
 }
 
 h2 {
+    font-weight: 500;
+}
+
+h3 {
     font-weight: 500;
 }
 
@@ -317,7 +322,7 @@ main {
 
 /* Projects.html */
 
-#projects {
+#projects-list {
     color: inherit;
     margin: 0 20%;
     display: flex;
@@ -345,8 +350,9 @@ main {
 }
 
 .short-project hr {
+    border: solid 0 transparent;
     border-top: solid 1px black;
-    width: 100px;
+    width: 200px;
 }
 
 .short-project img {
@@ -366,8 +372,61 @@ main {
 
 .short-project:hover {
     box-shadow: 0 0 8px black;
+    cursor: pointer;
 }
 
+.short-project a {
+    all: none;
+}
+
+/* Full project page */
+
+#project {
+    width: fit-content;
+    padding: 30px 20% 0 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-self: center;
+}
+
+#project-hero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: auto;
+    margin-bottom: 30px;
+    background-color: #687F94;
+    border: solid 0 #475f8d;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #F9F9F8;
+    height: fit-content;
+}
+
+#project-hero img {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 70%;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-self: center;
+    box-shadow: -7px 0 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+#hero-text-box {
+    height: 100%;
+    width: 100%;
+    min-width: 200px;
+    max-width: 30%;
+    border: solid 1px transparent;
+    padding: 5%;
+}
+
+#project-text {
+    background-color: green;
+}
 
 /* Contact.html */
 
