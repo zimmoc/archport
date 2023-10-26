@@ -463,6 +463,7 @@ main {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     margin-bottom: 5px;
     background-color: #687F94;
     color: #F9F9F8;
@@ -478,6 +479,7 @@ main {
     object-fit: contain;
     max-height: 500px;
     height: auto;
+    width: auto;
     border: solid 3px #687F94;
 }
 
