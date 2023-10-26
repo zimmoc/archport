@@ -100,6 +100,10 @@ header a {
     border-bottom: solid 1px #F9F9F8;
 }
 
+.active-dark {
+    border-bottom: solid 1px #0e1629;
+}
+
 #menu a:hover {
     border-bottom: solid 1px #F9F9F8;
 }
@@ -388,6 +392,25 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+    margin-top: 20px;
+    margin-bottom: -15px;
+    padding: 0 10% 0 10%;
+    z-index: 69;
+    cursor: pointer;
+}
+
+.breadcrumb a {
+    color: #0e1629;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    border-bottom: solid 1px #0e1629;
 }
 
 /* Project page hero */
