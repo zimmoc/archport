@@ -265,7 +265,7 @@ main {
     background-color: #F9F9F8;
     width: 200px;
     margin: 10px;
-    background: url("../images/Iannis-Xenakis.jpg") no-repeat center center/contain;
+    background: url("../images/Iannis-Xenakis.webp") no-repeat center center/contain;
 }
 
 
@@ -296,7 +296,7 @@ main {
 #landing-img {
     width: 50%;
     overflow-y: hidden;
-    background: url("../images/hero1.jpg") no-repeat center center/cover;
+    background: url("../images/hero1.webp") no-repeat center center/cover;
 }
 
 #landing-text {
@@ -514,7 +514,7 @@ main {
 /* Contact.html */
 
 #contact {
-    background: url("../images/4feelings.jpg") no-repeat center center/cover;
+    background: url("../images/4feelings.webp") no-repeat center center/cover;
     background-color: #F9F9F8;
     box-shadow: inset 0 0 0 3000px rgba(131, 160, 187, 0.705);
     height: 100vh;
