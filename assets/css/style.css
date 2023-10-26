@@ -237,6 +237,7 @@ main {
 .grid-box button:hover {
     background-color: #142A57;
     color: #f2ede0;
+    cursor: pointer;
 }
 
 .grid-box button:active {
