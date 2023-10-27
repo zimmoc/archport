@@ -205,7 +205,7 @@ main:not(.width-remove) {
     /* border-radius: 5px; */
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
     margin: 10px;
-    flex-basis: auto;
+
 }
 
 
@@ -705,8 +705,8 @@ footer {
 
 /* Media querys */
 
-/* Media query: phones up to 576px */
-@media screen and (max-width: 576px) and (min-width: 200px) {
+/* Media query: Up to 768px */
+@media screen and (max-width: 768px) and (min-width: 200px) {
     nav {
         position: absolute;
         background-color: #0e1629;
@@ -891,21 +891,41 @@ footer {
 
 /* Media query: large or landscape phones (From 576px to 768px) */
 @media screen and (max-width: 768px) and (min-width: 576px) {
-    header {
-        padding: 0;
-        width: 100%;
+
+    .flex-row {
+        flex-direction: row;
     }
 
-    main {
-        width: 98%;
-        margin: auto;
+    #contact-form {
+        width: 500px;
+    }
+
+    #art-grid>h2>hr {
+        width: 100px;
     }
 }
 
 /* Media query: tablets and larger ( From 768px to 992px ) */
 @media screen and (max-width: 992px) and (min-width: 768px) {
-    .grid-box {
-        flex-basis: 40%;
+
+
+    main:not(.width-remove) {
+        width: 96% !important;
+        margin: 0 2% 0 2%;
+    }
+
+    #landing p {
+        width: 80%;
+        margin: 10px;
+    }
+
+    .flex-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #art-grid>h2>hr {
+        width: 100px;
     }
 
 
@@ -914,8 +934,13 @@ footer {
 /* Media query: From 992px to 1200px */
 @media screen and (max-width: 1200px) and (min-width: 992px) {
 
-    .grid-box {
-        flex-basis: 40%;
+    header {
+        padding: 0 5%;
+    }
+
+    main:not(.width-remove) {
+        width: 90%;
+        margin: 0 5% 0 5%;
     }
 
 
@@ -926,7 +951,12 @@ footer {
 @media screen and (max-width: 1440px) and (min-width: 1200px) {
 
     header {
-        padding: 0 20%;
+        padding: 0 10%;
+    }
+
+    main:not(.width-remove) {
+        width: 80%;
+        margin: 0 10%;
     }
 
     .grid-box {
@@ -944,7 +974,3 @@ footer {
 /* Media query: 1440px and up */
 
 @media screen and (min-width: 1440px) {}
-
-/* Media query: 1600px and up */
-
-@media screen and (min-width: 1600px) {}
