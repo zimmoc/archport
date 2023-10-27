@@ -671,11 +671,74 @@ footer {
 
 /* Media querys */
 
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {}
+/* Media query: phones up to 576px */
+@media screen and (max-width: 576px) and (min-width: 200px) {
+    nav {
+        display: none;
+    }
 
-/* Media query: tablets and larger ( 768px and up ) */
-@media screen and (min-width: 768px) {
+    header {
+        padding: 0 1%;
+        width: 100%;
+    }
+
+    main {
+        width: 96% !important;
+        margin: 0 2% 0 2%;
+    }
+
+    /* Landing section */
+
+    #landing {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        height: auto;
+    }
+
+    #landing-img {
+        height: 300px;
+        width: 100%;
+    }
+
+    #landing-text {
+        height: auto;
+        width: 100%;
+    }
+
+    #landing p {
+        width: 96%;
+        margin: 2%;
+    }
+
+    #landing hr {
+        width: 100%;
+    }
+
+    #landing h2 {
+        margin: 2%;
+        justify-content: center;
+    }
+
+
+}
+
+
+/* Media query: large or landscape phones (From 576px to 768px) */
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    header {
+        padding: 0;
+        width: 100%;
+    }
+
+    main {
+        width: 98%;
+        margin: auto;
+    }
+}
+
+/* Media query: tablets and larger ( From 768px to 992px ) */
+@media screen and (max-width: 992px) and (min-width: 768px) {
     .grid-box {
         flex-basis: 40%;
     }
@@ -683,8 +746,8 @@ footer {
 
 }
 
-/* Media query: 992px and up */
-@media screen and (min-width: 992px) {
+/* Media query: From 992px to 1200px */
+@media screen and (max-width: 1200px) and (min-width: 992px) {
 
     .grid-box {
         flex-basis: 40%;
@@ -693,9 +756,9 @@ footer {
 
 }
 
-/* Media query: 1200px and up */
+/* Media query: From 1200px to 1440px */
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
 
     header {
         padding: 0 20%;
@@ -713,6 +776,10 @@ footer {
 
 }
 
+/* Media query: 1440px and up */
+
 @media screen and (min-width: 1440px) {}
+
+/* Media query: 1600px and up */
 
 @media screen and (min-width: 1600px) {}
