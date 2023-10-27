@@ -269,14 +269,15 @@ main:not(.width-remove) {
 
 #bio-bg {
     background-color: #F9F9F8;
-    width: 200px;
+    width: 25%;
     margin: 10px;
-    background: url("../images/Iannis-Xenakis.webp") no-repeat center center/contain;
+    background: url("../images/campus.webp") no-repeat center center/cover;
 }
 
 
 
 #bio-text {
+    width: 75%;
     margin: 10px;
     color: #F9F9F8;
 }
