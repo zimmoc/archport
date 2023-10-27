@@ -220,7 +220,6 @@ main:not(.width-remove) {
     height: 100px;
     margin-top: 5px;
     margin-left: 22.5px;
-    justify-content: baseline;
 
 }
 
@@ -421,7 +420,7 @@ main:not(.width-remove) {
 }
 
 .short-project a {
-    all: none;
+    all: unset;
 }
 
 .read-more {
@@ -466,7 +465,6 @@ main:not(.width-remove) {
     width: 30px;
     height: 30px;
     color: #F9F9F8;
-    font-size: auto;
     text-align: center;
     border: solid 0px #475f8d;
     border-radius: 50%;

@@ -108,4 +108,28 @@ So i added a "take me to the top" arrow but i did have trouble to make it send t
 
 I was happy with this feedback and felt that i had made a good site thats easy to understand and navigate. I'm not a designer so there is much left to work on with the design but i feel happy with how it turned out.
 
+### Validator
+
+#### HTML
+
+When running the HTML validator i found that i had done some small errors on a few pages.
+They were all stray tags or unclosed tags. 
+Except for the index.html where i have wrapped all my buttons in anchor tags with a href attribute to send the user to that page. This is apparently not good practice but i've left it like this for now since it doesnt cause any problems.
+
+#### CSS
+
+There were 3 errors in the css which all were values that didnt exist for that specific rule, so nothing site breaking but redundant code that doesnt do anything.
+
+I also know for a fact that there is a lot of redundant code in the stylesheet but sometimes i really got lost when trying to fix a problem and wrote a lot of different things trying to reach my goal. And sometimes i forgot to go back and clean it up.
+I would like to clean it up to also give me a better understanding of what works and what doesnt, but i will not do it now since i dont have the time for it if anything breaks.
+
 ## Validator testing
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator]()
+
+### Unfixed Bugs
