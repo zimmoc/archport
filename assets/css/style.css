@@ -720,6 +720,37 @@ footer {
         justify-content: center;
     }
 
+    /* Art grids section */
+
+    .flex-row {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #art-grid>h2>hr {
+        display: none;
+    }
+
+    /* Short bio section */
+
+    #bio {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #bio-bg {
+        width: 96%;
+        height: 200px;
+        margin: 2%;
+    }
+
+    #bio-text {
+        width: 96%;
+        margin: 2%;
+        height: auto;
+    }
+
 
 }
 
