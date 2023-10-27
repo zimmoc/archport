@@ -167,6 +167,7 @@ I also used google whenever i couldnt make something work which sent me to diffe
 
 - The collapsible nav bar was mostly taken from the love-running project but modified to fit my page
 - The icons used were taken from [Font Awesome](https://fontawesome.com/)
+- Favicon by [Icons8](https://icons8.com/)
 
 ### Media
 
