@@ -140,6 +140,8 @@ I have not found any unfixed bugs that change how the website looks or works.
 
 - The site was deployed on GitHub pages
     - Main branch of repository always deployed
+ 
+The live link can be found here - https://zimmoc.github.io/archport/
 
 ### Performance
 
