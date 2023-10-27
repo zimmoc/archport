@@ -946,9 +946,9 @@ footer {
 
 }
 
-/* Media query: From 1200px to 1600px */
+/* Media query: From 1200px to 1440px */
 
-@media screen and (max-width: 1600px) and (min-width: 1200px) {
+@media screen and (max-width: 1440px) and (min-width: 1200px) {
 
     header {
         padding: 0 10%;
@@ -966,6 +966,24 @@ footer {
     #landing-img img {
         max-width: 60%;
     }
+
+
+
+}
+
+/* Media query: 1440px and up */
+
+@media screen and (min-width: 1440px) {
+
+    header {
+        padding: 0 20%;
+    }
+
+    main:not(.width-remove) {
+        width: 60%;
+        margin: 0 20%;
+    }
+
 
 
 
