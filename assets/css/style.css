@@ -37,6 +37,9 @@ body {
 }
 
 
+
+
+
 /* General font weights */
 
 p {
@@ -413,6 +416,25 @@ main:not(.width-remove) {
 
 .breadcrumb a:hover {
     border-bottom: solid 1px #0e1629;
+}
+
+/* Jump to top of page arrow */
+
+#jump-to-top {
+    width: 30px;
+    height: 30px;
+    color: rgba(249, 249, 248, 1);
+    font-size: x-large;
+    text-align: center;
+    border: solid 0px black;
+    border-radius: 5px;
+    background-color: rgba(20, 42, 87, 0.774);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, .5);
+    z-index: 75;
+    position: fixed;
+    cursor: pointer;
+    right: 20%;
+    bottom: 40px;
 }
 
 /* Project page hero */
