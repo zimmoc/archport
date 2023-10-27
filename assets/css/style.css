@@ -85,6 +85,13 @@ header a {
 
 /* Nav menu*/
 
+nav {
+    display: flex;
+    position: relative;
+    width: fit-content;
+    align-items: center;
+}
+
 
 #menu {
     text-transform: uppercase;
@@ -92,6 +99,7 @@ header a {
     list-style-type: none;
     text-align: center;
     padding: 1rem 0;
+    display: flex;
 }
 
 #menu>li {
@@ -109,6 +117,23 @@ header a {
 
 #menu a:hover {
     border-bottom: solid 1px #F9F9F8;
+}
+
+/* nav mobile menu */
+
+
+#nav-toggle:checked~nav {
+    display: block;
+    justify-content: center;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    display: none;
 }
 
 
@@ -683,7 +708,28 @@ footer {
 /* Media query: phones up to 576px */
 @media screen and (max-width: 576px) and (min-width: 200px) {
     nav {
+        position: absolute;
+        background-color: #0e1629;
+        width: 100%;
+        box-shadow: 0 2px 2px #3a3a3a;
+        padding: 0 1rem;
+        left: 0;
         display: none;
+        top: 100%;
+    }
+
+    #menu {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nav-toggle-label {
+        display: block;
+        color: #f2ede0;
+        align-self: center;
+        padding-right: 2%;
     }
 
     header {
