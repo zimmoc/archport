@@ -889,7 +889,7 @@ footer {
 }
 
 
-/* Media query: large or landscape phones (From 576px to 768px) */
+/* Media query: From 576px to 768px */
 @media screen and (max-width: 768px) and (min-width: 576px) {
 
     .flex-row {
@@ -905,7 +905,7 @@ footer {
     }
 }
 
-/* Media query: tablets and larger ( From 768px to 992px ) */
+/* Media query: From 768px to 992px */
 @media screen and (max-width: 992px) and (min-width: 768px) {
 
 
@@ -946,9 +946,9 @@ footer {
 
 }
 
-/* Media query: From 1200px to 1440px */
+/* Media query: From 1200px to 1600px */
 
-@media screen and (max-width: 1440px) and (min-width: 1200px) {
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
 
     header {
         padding: 0 10%;
@@ -970,7 +970,3 @@ footer {
 
 
 }
-
-/* Media query: 1440px and up */
-
-@media screen and (min-width: 1440px) {}
