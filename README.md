@@ -69,6 +69,16 @@ The project showcase pages are made using pre-created modules, since this site w
 
     ![Full width image module](/assets/images/readme/img-module.png)
 
+- __Navigation__
+
+    - Making a site easy to understand and easy to navigate really makes a huge difference. Therefore this site features a "breadcrumb" to take you back to the projects page from the full project showcase page.
+
+    ![Breadcrumb bar](/assets/images/readme/breadcrumb.png)
+
+    - The thing with breadrumbs is that they are at the top and a user that's scrolled to the bottom of a long page really doesnt wanna scroll back up. Thats why there's a "Take me to the top" arrow.
+
+    ![Jump to top arrow](/assets/images/readme/top-arrow.png)
+
 
 ## Contact form
 
@@ -82,3 +92,20 @@ Here the user can contact the architect with a message, they can also leave thei
 
 ## Testing
 
+I have tested all pages on this website both on a local deployment and a live deployment. I did not find any site or function breaking bugs but i did come accross some responsiveness problems that were easy to fix.
+
+The website have been tested on several devices with different screens including, iPhone 14 pro, 2022 iPad pro landscape and portrait mode, laptop connected to a full hd 16:9 monitor and lastly a 16:10 laptop screen.
+
+The site has worked flawlessly on all of them but there was a need for improved QoL when it comes to mobile devices.
+
+So i sat my sister down infront of the website and asked her to navigate to a certain project, contact page and just the general feel of the website flow. 
+Since she's an architect student she knows her way around the computer so this feedback is not that of a regular non-tech person but it still contained some value.
+
+The ease of navigation and flow of the website was great according to her, and it was all easy to read and navigate around without having to scan the whole website. Things were in their "natural" position so to speak.
+
+The only problem she had was that there was no "take me to the top" arrow after she had scrolled all the way down on a project showcase. I could duplicate the breadcrumb bar and put it at the bottom of the page aswell, but i wanted to try making a functional arrow.
+So i added a "take me to the top" arrow but i did have trouble to make it send the user to the absolute top of the page, it stopped right under the breadcrumb which felt really bad. I managed to solve this problem on my laptop and iphone using a chrome based browser, for some reason safari on the ipad still wouldn't send me to the absolute top. I blame Apple and their inferior browser.
+
+I was happy with this feedback and felt that i had made a good site thats easy to understand and navigate. I'm not a designer so there is much left to work on with the design but i feel happy with how it turned out.
+
+## Validator testing

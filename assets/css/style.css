@@ -164,15 +164,21 @@ main:not(.width-remove) {
     text-align: center;
 }
 
+.art-grid-heading {
+    display: flex;
+    justify-content: center;
+}
+
 #art-grid a {
     color: #142A57;
 }
 
-#art-grid>h2>hr {
+.art-grid-heading hr {
     display: inline-flex;
     margin: 1rem 1rem 0.25rem;
     width: 300px;
-    border: 1px solid #142A57;
+    border: 0;
+    border-top: 2px solid #142A57;
 }
 
 .flex-row {
@@ -783,7 +789,7 @@ footer {
         align-items: center;
     }
 
-    #art-grid>h2>hr {
+    .art-grid-heading hr {
         display: none;
     }
 
@@ -900,8 +906,8 @@ footer {
         width: 500px;
     }
 
-    #art-grid>h2>hr {
-        width: 100px;
+    .art-grid-heading hr {
+        width: 300px;
     }
 }
 
@@ -924,7 +930,7 @@ footer {
         flex-wrap: wrap;
     }
 
-    #art-grid>h2>hr {
+    .art-grid-heading hr {
         width: 100px;
     }
 
