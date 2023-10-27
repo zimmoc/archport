@@ -125,11 +125,49 @@ I would like to clean it up to also give me a better understanding of what works
 
 ## Validator testing
 
-### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - 1 (4 times) error were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fzimmoc.github.io%2Farchport%2Findex.html)
+
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]()
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fzimmoc.github.io%2Farchport%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
+
+I have not found any unfixed bugs that change how the website looks or works.
+
+## Deployment
+
+- The site was deployed on GitHub pages
+    - Main branch of repository always deployed
+
+### Performance
+
+- __Tests performed using [Pagespeed](https://pagespeed.web.dev/)__
+
+- Mobile test
+
+![mobile pagespeed](/assets/images/readme/reports/mobile.png)
+![mobile pagespeed settings](/assets/images/readme/reports/mobile-settings.png)
+
+- Desktop test
+
+![desktop pagespeed](/assets/images/readme/reports/desktop.png)
+![desktop pagespeed settings](/assets/images/readme/reports/desktop-settings.png)
+
+
+## Credits 
+
+All the code is written by me with the exception for some love-running code.
+Whenever i got stuck or didnt understand how to implement something i used [w3schools](https://www.w3schools.com/) and [w3docs](https://www.w3docs.com/) to understand attributes and values.
+
+I also used google whenever i couldnt make something work which sent me to different forums and help sites where people were asking about the same problem, I used that information to create my own solution.
+
+### Content 
+
+- The collapsible nav bar was mostly taken from the love-running project but modified to fit my page
+- The icons used were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- All the photos used on this website were taken from my sisters school portfolio projects
