@@ -423,18 +423,29 @@ main:not(.width-remove) {
 #jump-to-top {
     width: 30px;
     height: 30px;
-    color: rgba(249, 249, 248, 1);
-    font-size: x-large;
+    color: #F9F9F8;
+    font-size: auto;
     text-align: center;
-    border: solid 0px black;
-    border-radius: 5px;
-    background-color: rgba(20, 42, 87, 0.774);
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, .5);
+    border: solid 0px #475f8d;
+    border-radius: 50%;
+    background-color: rgba(27, 27, 27, 0.85);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 1);
     z-index: 75;
     position: fixed;
     cursor: pointer;
-    right: 20%;
+    right: 18%;
     bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jump-to-top:hover {
+    color: #687F94;
+}
+
+#jump-to-top:active {
+    background-color: #F9F9F8;
 }
 
 /* Project page hero */
