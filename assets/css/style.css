@@ -735,6 +735,7 @@ footer {
     .flex-row {
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
     }
 
     #art-grid>h2>hr {
@@ -804,6 +805,30 @@ footer {
         margin-top: 20px;
         margin-bottom: -30px;
         display: block;
+    }
+
+    /* Full projects page */
+
+    #project-hero {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #project-hero img {
+        max-width: 100%;
+        order: -1;
+    }
+
+    /*Project page modules */
+
+    .project-text-img {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .project-text-img img {
+        max-width: 100%;
+        order: 1;
     }
 
 
