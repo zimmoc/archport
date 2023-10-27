@@ -1,6 +1,6 @@
 # Archport
 
-Archport is a site made to showcase my sisters <span style="color:orange;">Arch</span>itecture <span style="color: orange;">port</span>folio while she progresses through the courses. The site targets potential employers to showcase how her talents have progressed through the courses.
+Archport is a site made to showcase my sisters ARCHitecture PORTfolio while she progresses through the courses. The site targets potential employers to showcase how her talents have progressed through the courses.
 
 ![Responsive Mockup](/assets/images/readme/mockup.png)
 
